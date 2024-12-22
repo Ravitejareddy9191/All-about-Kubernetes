@@ -2,6 +2,15 @@
     Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications.
     Originally Developed by Google.
     The Open Source project is hosted by the Cloud Native Computing Foundation.
+## Here are some challenges faced when using Docker alone that Kubernetes helps to overcome:
+    1. Manual Scaling and Load Balancing
+    2. Service Discovery
+    3. Self-Healing
+    4. Automated Rollouts and Rollbacks
+    5. Storage Orchestration
+    6. Networking and Security
+    7. Enterprise Level Support
+    
 # Kubernetes Architecture
 ![Screenshot 2023-02-07 at 7 18 10 PM](https://kubernetes.io/images/docs/kubernetes-cluster-architecture.svg)
 ## Control plane Components
@@ -30,6 +39,8 @@
     It represents a single instance of a running process in your cluster and can contain one or more containers
     
 ### Kube Proxy
+    Kube proxy is a kubenetes agent installed on every node in the cluster
+    
 ### Kubelet
 ### Container Runtime
 ## Networking
